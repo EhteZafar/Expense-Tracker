@@ -38,6 +38,7 @@ function ExpenseForm(props) {
 
 
   return <form onSubmit={SubmitHandler}>
+    <h2 className="heading-form">Add New Expense</h2>
     <div className="new-expense__controls">
         <div className="new-expense__control">
             <label>Title</label>

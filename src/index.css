@@ -10,6 +10,15 @@ html {
 
 body {
   margin: 0;
-  background-color: #3f3f3f;
+  /* background-color: #3f3f3f; */
+  background-image: url('../Images/background-1.jpg');
+  background-size: cover;
+}
+
+.heading {
+  text-align: center;
+  color: #fff;
+  background-color: #40005d;
+  padding: 1rem;
 }
 

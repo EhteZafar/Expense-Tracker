@@ -1,5 +1,7 @@
 .new-expense {
-    background-color: #a892ee;
+    /* background-color: #a892ee; */
+    background-image: url('../../../Images/form-background.jpg');
+    background-size: cover;
     padding: 1rem;
     margin: 2rem auto;
     width: 50rem;
@@ -35,4 +37,12 @@
 .new-expense button.alternative:hover,
 .new-expense button.alternative:active {
     background-color: #ddb3f8;
+}
+
+.heading-form {
+    text-align: center;
+    color: #fff;
+    /* background-color: #40005d; */
+    padding: 1rem;
+    border-radius: 12px;
 }
