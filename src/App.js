@@ -35,11 +35,17 @@ function App() {
     });
   }
 
+  function deleteExpenseHandler(title) {
+    setExpenses((prevExpenses) => {
+      return prevExpenses.filter((expense) => expense.title !== title);
+    });
+  }
+
   return (
     <div>
       <h1 className="heading">Expense Tracker</h1>
       <NewExpense onAddExpense={addExpenseHandler}/>
-      <Expenses items={expenses} />
+      <Expenses items={expenses} onDeleteExpense={deleteExpenseHandler}/>
     </div>
   );
 }
